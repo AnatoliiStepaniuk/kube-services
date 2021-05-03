@@ -18,7 +18,7 @@ spec:
         app: service-a
     spec:
       containers:
-      - image: anatoliistepaniuk/service-a:latest
+      - image: anatoliistepaniuk/service-a:2.0.0
         name: service-a
         resources: {}
 status: {}

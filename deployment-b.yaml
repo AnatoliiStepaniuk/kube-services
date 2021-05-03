@@ -28,5 +28,5 @@ spec:
           httpGet:
             path: /actuator/health/readiness
             port: http
-          failureThreshold: 1
+          failureThreshold: 5
           periodSeconds: 5

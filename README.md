@@ -9,10 +9,10 @@ Both have REST routes `/a` and `/b `
 Public service A also has route `/ab` with will fetch data from private `/b` route.
 
 
-Kubernetes templates were generated with this commands:
+Basic Kubernetes templates could be generated with these commands:
  
 ```
-kubectl create deployment service-b --image=anatoliistepaniuk/service-b:latest
+kubectl create deployment service-b --image=anatoliistepaniuk/service-b:1.0.0
 --dry-run=client -o=yaml > deployment-b.yaml | kubectl apply -f deployment-b.yaml
 
 kubectl expose deployment service-b --type=ClusterIP --port=80 --target-port=8080

@@ -6,7 +6,7 @@ metadata:
     app: service-a
   name: service-a
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: service-a
@@ -22,7 +22,7 @@ spec:
         app: service-a
     spec:
       containers:
-      - image: anatoliistepaniuk/service-a:4.0.0
+      - image: anatoliistepaniuk/service-a:3.1.0
         name: service-a
         readinessProbe:
           httpGet:

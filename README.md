@@ -20,5 +20,7 @@ Kubernetes templates were generated with this commands:
 `kubectl expose deployment service-a --type LoadBalancer --port 80 --target-port 8081 --dry-run=client -o=yaml > service-a.yaml | kubectl apply -f service-a.yaml`
 
 Repositories for services:
+
 https://github.com/AnatoliiStepaniuk/service-a
+
 https://github.com/AnatoliiStepaniuk/service-b

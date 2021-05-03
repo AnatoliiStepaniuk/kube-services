@@ -16,7 +16,7 @@ on:
   push:
     branches: [ master ]
 env:
-  GKE_CLUSTER: micro-cluster
+#  GKE_CLUSTER: micro-cluster
   GKE_ZONE: europe-central2-a
   IMAGE: static-site
 

@@ -11,13 +11,17 @@ Public service A also has route `/ab` with will fetch data from private `/b` rou
 
 Kubernetes templates were generated with this commands:
  
-`kubectl create deployment service-b --image=anatoliistepaniuk/service-b:latest --dry-run=client -o=yaml > deployment-b.yaml | kubectl apply -f deployment-b.yaml`
+`kubectl create deployment service-b --image=anatoliistepaniuk/service-b:latest
+--dry-run=client -o=yaml > deployment-b.yaml | kubectl apply -f deployment-b.yaml`
 
-`kubectl expose deployment service-b --type=ClusterIP --port=80 --target-port=8080 --dry-run=client -o=yaml > service-b.yaml | kubectl apply -f service-b.yaml`
+`kubectl expose deployment service-b --type=ClusterIP --port=80 --target-port=8080
+--dry-run=client -o=yaml > service-b.yaml | kubectl apply -f service-b.yaml`
 
-`kubectl create deployment service-a --image=anatoliistepaniuk/service-a:latest --dry-run=client -o=yaml > deployment-a.yaml | kubectl apply -f deployment-a.yaml`
+`kubectl create deployment service-a --image=anatoliistepaniuk/service-a:latest
+--dry-run=client -o=yaml > deployment-a.yaml | kubectl apply -f deployment-a.yaml`
 
-`kubectl expose deployment service-a --type LoadBalancer --port 80 --target-port 8081 --dry-run=client -o=yaml > service-a.yaml | kubectl apply -f service-a.yaml`
+`kubectl expose deployment service-a --type LoadBalancer --port 80 --target-port 8081
+--dry-run=client -o=yaml > service-a.yaml | kubectl apply -f service-a.yaml`
 
 Repositories for services:
 

@@ -18,7 +18,11 @@ spec:
         app: service-b
     spec:
       containers:
-      - image: anatoliistepaniuk/service-b:latest
+      - image: anatoliistepaniuk/service-b:3.1.0
         name: service-b
-        resources: {}
-status: {}
+        readinessProbe:
+          httpGet:
+            path: /actuator/health/readiness
+            port: http
+          failureThreshold: 1
+          periodSeconds: 5

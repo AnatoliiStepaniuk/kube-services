@@ -13,5 +13,6 @@ spec:
   selector:
     app: front-app
   type: LoadBalancer
+  loadBalancerIP: 34.116.197.57 # the.kubergang.com
 status:
   loadBalancer: {}

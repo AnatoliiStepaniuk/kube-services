@@ -22,7 +22,7 @@ spec:
         app: front-app
     spec:
       containers:
-      - image: anatoliistepaniuk/front-app:5.0.0
+      - image: anatoliistepaniuk/front-app:4.0.0
         name: front-app
         readinessProbe:
           httpGet:

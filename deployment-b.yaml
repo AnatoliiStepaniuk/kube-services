@@ -6,7 +6,7 @@ metadata:
     app: service-b
   name: service-b
 spec:
-  replicas: 5
+  replicas: 1
   selector:
     matchLabels:
       app: service-b

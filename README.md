@@ -21,8 +21,14 @@ kubectl expose deployment service-b --type=ClusterIP --port=80 --target-port=808
 kubectl create deployment service-a --image=anatoliistepaniuk/service-a:2.0.0
 --dry-run=client -o=yaml > deployment-a.yaml | kubectl apply -f deployment-a.yaml
 
-`kubectl expose deployment service-a --type LoadBalancer --port 80 --target-port 8081
+kubectl expose deployment service-a --type LoadBalancer --port 80 --target-port 8081
 --dry-run=client -o=yaml > service-a.yaml | kubectl apply -f service-a.yaml
+
+kubectl create deployment front-app --image=anatoliistepaniuk/front-app:1.0.0 
+--dry-run=client -o=yaml > deployment-front.yaml | kubectl apply -f deployment-front.yaml
+
+kubectl expose deployment front-app --type LoadBalancer --port 80 
+--dry-run=client -o=yaml > service-front.yaml | kubectl apply -f service-front.yaml
 ```
 
 Repositories for services:
@@ -30,3 +36,4 @@ Repositories for services:
 https://github.com/AnatoliiStepaniuk/service-a
 
 https://github.com/AnatoliiStepaniuk/service-b
+

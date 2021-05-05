@@ -1,6 +1,4 @@
 
- `helm package .`
+ `helm package . -d docs/`
 
-`helm repo index`
- 
- 
+`helm repo index docs`

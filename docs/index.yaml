@@ -2,7 +2,20 @@ apiVersion: v1
 entries:
   kubergang:
   - apiVersion: v2
-    created: "2021-05-05T16:07:44.308862+03:00"
+    created: "2021-05-05T16:16:16.297104+03:00"
+    digest: 8927f61f2bfafcf5517cb314e270a36d85ce2cd9795c18aba93a35d99781d8f6
+    home: http://the.kubergang.com
+    name: kubergang
+    sources:
+    - https://github.com/AnatoliiStepaniuk/kube-services
+    - https://github.com/AnatoliiStepaniuk/front-app
+    - https://github.com/AnatoliiStepaniuk/service-a
+    - https://github.com/AnatoliiStepaniuk/service-b
+    urls:
+    - https://anatoliistepaniuk.github.io/kube-services/kubergang-1.2.3.tgz
+    version: 1.2.3
+  - apiVersion: v2
+    created: "2021-05-05T16:16:16.226336+03:00"
     digest: fb0fd1ef0dc4fd43a7f36c9709c8b8a4d1abc098b49e7a34b58a7af6a45c095f
     home: http://the.kubergang.com
     name: kubergang
@@ -15,7 +28,7 @@ entries:
     - https://anatoliistepaniuk.github.io/kube-services/kubergang-1.2.2.tgz
     version: 1.2.2
   - apiVersion: v2
-    created: "2021-05-05T16:07:44.281606+03:00"
+    created: "2021-05-05T16:16:16.197322+03:00"
     digest: e7b1bc10f6829046e23bb3a35055b38b47a51e17e73c2ab752533107498e7e57
     home: http://the.kubergang.com
     name: kubergang
@@ -28,7 +41,7 @@ entries:
     - https://anatoliistepaniuk.github.io/kube-services/kubergang-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v2
-    created: "2021-05-05T16:07:44.269939+03:00"
+    created: "2021-05-05T16:16:16.185829+03:00"
     digest: 73c60643f7c742c820aff4efc06115d1d012c07a6283ec5102f77084eca3b062
     home: http://the.kubergang.com
     name: kubergang
@@ -41,9 +54,10 @@ entries:
     - https://anatoliistepaniuk.github.io/kube-services/kubergang-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
-    created: "2021-05-05T16:07:44.261766+03:00"
+    created: "2021-05-05T16:16:16.177634+03:00"
     digest: df1ebb4a812faee1e7bc1bca06ed3fdda6e2ccef7a99d652ec911dcda855ab44
     home: http://the.kubergang.com
+    icon: https://cdn.loom.com/images/originals/69ae5cc13fa54d178883fe119bd5c924.jpg?Expires=1620294380&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4ubG9vbS5jb20vaW1hZ2VzL29yaWdpbmFscy82OWFlNWNjMTNmYTU0ZDE3ODg4M2ZlMTE5YmQ1YzkyNC5qcGciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2MjAyOTQzODB9fX1dfQ__&Signature=rDFT~YBJFF3hYUb4wQSM84BqOr-jbisOqLGGedWCNw76wrGKPUE5sHcHs0PcW-kUj1t4-teXEaeqwX2cXeUBQa9okLgwXxrHgKncD2DkJdpcUfo6qHt3Lpo4Q0NvFuFjyu045sEZUkTmBSmqKJdCCB1PzVnHqrgw7uaM~liRPNDH0rVQ4~px9XfRKZVzJJGHsPG1HIdbvZxGy469q2wyrWkMKpkw58Xpsl~k0NFIYafglbLjYK8-SODV~w-gaw2PSuax4c9OBpD4Rc57M-W8soeKEvJAb1s-oGqrOZUeozozpU-yY16FQW-qzEvCtAk4G2oqAOov9Q1HFuT1BqJ5Fw__&Key-Pair-Id=APKAJQIC5BGSW7XXK7FQ
     name: kubergang
     sources:
     - https://github.com/AnatoliiStepaniuk/kube-services
@@ -54,9 +68,10 @@ entries:
     - https://anatoliistepaniuk.github.io/kube-services/kubergang-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
-    created: "2021-05-05T16:07:44.258625+03:00"
+    created: "2021-05-05T16:16:16.174602+03:00"
     digest: 16f2e2216349c700d2500c7551fa909d31106e4d3e023b964fb5de999de523e9
     home: http://the.kubergang.com
+    icon: https://cdn.loom.com/images/originals/69ae5cc13fa54d178883fe119bd5c924.jpg?Expires=1620294380&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4ubG9vbS5jb20vaW1hZ2VzL29yaWdpbmFscy82OWFlNWNjMTNmYTU0ZDE3ODg4M2ZlMTE5YmQ1YzkyNC5qcGciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2MjAyOTQzODB9fX1dfQ__&Signature=rDFT~YBJFF3hYUb4wQSM84BqOr-jbisOqLGGedWCNw76wrGKPUE5sHcHs0PcW-kUj1t4-teXEaeqwX2cXeUBQa9okLgwXxrHgKncD2DkJdpcUfo6qHt3Lpo4Q0NvFuFjyu045sEZUkTmBSmqKJdCCB1PzVnHqrgw7uaM~liRPNDH0rVQ4~px9XfRKZVzJJGHsPG1HIdbvZxGy469q2wyrWkMKpkw58Xpsl~k0NFIYafglbLjYK8-SODV~w-gaw2PSuax4c9OBpD4Rc57M-W8soeKEvJAb1s-oGqrOZUeozozpU-yY16FQW-qzEvCtAk4G2oqAOov9Q1HFuT1BqJ5Fw__&Key-Pair-Id=APKAJQIC5BGSW7XXK7FQ
     name: kubergang
     sources:
     - https://github.com/AnatoliiStepaniuk/kube-services
@@ -66,4 +81,4 @@ entries:
     urls:
     - https://anatoliistepaniuk.github.io/kube-services/kubergang-1.0.0.tgz
     version: 1.0.0
-generated: "2021-05-05T16:07:44.252975+03:00"
+generated: "2021-05-05T16:16:16.168729+03:00"

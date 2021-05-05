@@ -22,10 +22,16 @@ spec:
         app: service-a
     spec:
       containers:
-      - image: anatoliistepaniuk/service-a:5.0.0
+      - image: anatoliistepaniuk/service-a:5.1.0
         name: service-a
         readinessProbe:
           httpGet:
             path: /actuator/health/readiness
             port: 8081
           periodSeconds: 5
+        env:
+          name: REPLY
+          value: "Testing"
+#          valueFrom:
+#            configMapKeyRef:
+

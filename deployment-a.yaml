@@ -31,7 +31,8 @@ spec:
           periodSeconds: 5
         env:
           - name: REPLY
-            value: "Testing"
-#          valueFrom:
-#            configMapKeyRef:
+            valueFrom:
+              configMapKeyRef:
+                name: kubergang-config
+                key: SERVICE_A_REPLY
 

@@ -30,8 +30,8 @@ spec:
             port: 8081
           periodSeconds: 5
         env:
-          name: REPLY
-          value: "Testing"
+          - name: REPLY
+            value: "Testing"
 #          valueFrom:
 #            configMapKeyRef:
 

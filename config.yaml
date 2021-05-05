@@ -5,3 +5,4 @@ metadata:
   namespace: kubergang
 data:
   SERVICE_A_REPLY: "What's up, Cuz?"
+  SERVICE_B_REPLY: "What's up, Blood?"

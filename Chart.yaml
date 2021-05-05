@@ -1,0 +1,10 @@
+apiVersion: v2
+name: kubergang
+version: 1.0.0
+home: http://the.kubergang.com
+sources:
+  - https://github.com/AnatoliiStepaniuk/kube-services
+  - https://github.com/AnatoliiStepaniuk/front-app
+  - https://github.com/AnatoliiStepaniuk/service-a
+  - https://github.com/AnatoliiStepaniuk/service-b
+icon: https://cdn.loom.com/images/originals/69ae5cc13fa54d178883fe119bd5c924.jpg?Expires=1620294380&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4ubG9vbS5jb20vaW1hZ2VzL29yaWdpbmFscy82OWFlNWNjMTNmYTU0ZDE3ODg4M2ZlMTE5YmQ1YzkyNC5qcGciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2MjAyOTQzODB9fX1dfQ__&Signature=rDFT~YBJFF3hYUb4wQSM84BqOr-jbisOqLGGedWCNw76wrGKPUE5sHcHs0PcW-kUj1t4-teXEaeqwX2cXeUBQa9okLgwXxrHgKncD2DkJdpcUfo6qHt3Lpo4Q0NvFuFjyu045sEZUkTmBSmqKJdCCB1PzVnHqrgw7uaM~liRPNDH0rVQ4~px9XfRKZVzJJGHsPG1HIdbvZxGy469q2wyrWkMKpkw58Xpsl~k0NFIYafglbLjYK8-SODV~w-gaw2PSuax4c9OBpD4Rc57M-W8soeKEvJAb1s-oGqrOZUeozozpU-yY16FQW-qzEvCtAk4G2oqAOov9Q1HFuT1BqJ5Fw__&Key-Pair-Id=APKAJQIC5BGSW7XXK7FQ

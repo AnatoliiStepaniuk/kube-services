@@ -22,7 +22,7 @@ spec:
         app: service-a
     spec:
       containers:
-      - image: anatoliistepaniuk/service-a:5.1.1
+      - image: anatoliistepaniuk/service-a:5.2.1
         name: service-a
         readinessProbe:
           httpGet:

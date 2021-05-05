@@ -12,9 +12,9 @@
 
 name: Deploy to GKE
 
-on:
-  push:
-    branches: [ master ]
+#on:
+#  push:
+#    branches: [ master ]
 
 jobs:
   setup-build-publish-deploy:

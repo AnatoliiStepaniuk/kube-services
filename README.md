@@ -1,4 +1,4 @@
 
- `helm package . -d docs/`
+`helm repo add kubergang https://anatoliistepaniuk.github.io/kube-services`
 
-`helm repo index docs`
+`helm search repo kubergang`

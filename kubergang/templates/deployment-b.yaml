@@ -22,7 +22,7 @@ spec:
         app: service-b
     spec:
       containers:
-      - image: anatoliistepaniuk/service-b:5.0.1
+      - image: anatoliistepaniuk/service-b:4.2.0
         name: service-b
         readinessProbe:
           httpGet:

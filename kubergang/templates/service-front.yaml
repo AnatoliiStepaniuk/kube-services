@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: kubergang
+  labels:
+    app: front-app
+  name: front-app
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: front-app
+  type: LoadBalancer
+  loadBalancerIP: 34.116.197.57 # the.kubergang.com
+status:
+  loadBalancer: {}

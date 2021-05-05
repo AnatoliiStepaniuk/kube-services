@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: kubergang
+  labels:
+    app: service-a
+  name: service-a
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 8081
+  selector:
+    app: service-a
+  type: LoadBalancer
+  loadBalancerIP: 34.116.149.69 # service-a.kubergang.com
+status:
+  loadBalancer: {}

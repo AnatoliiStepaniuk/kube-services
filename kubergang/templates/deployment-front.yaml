@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: kubergang
+  labels:
+    app: front-app
+  name: front-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: front-app
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 0%
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: front-app
+    spec:
+      containers:
+      - image: anatoliistepaniuk/front-app:6.0.0
+        name: front-app
+        readinessProbe:
+          httpGet:
+            scheme: HTTP
+            path: /index.html
+            port: 80
+          periodSeconds: 2

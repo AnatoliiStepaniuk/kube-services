@@ -2,6 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: helm-test
+  namespace: kubergang
   annotations:
     "helm.sh/hook": test
 spec:

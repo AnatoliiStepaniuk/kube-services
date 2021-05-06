@@ -44,3 +44,6 @@ Push changes to Github.
 Now you can upgrade your release to new version:
 `helm repo update`
 `helm upgrade kubergang kubergang/kubergang --values=my-values.yaml --version 1.3.7`
+
+Validate installation:
+`helm test kubergang`

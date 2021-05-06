@@ -17,3 +17,4 @@ spec:
               value: {{ .Values.serviceAReply }}
             - name: SERVICE_B_REPLY
               value: {{ .Values.serviceBReply }}
+      restartPolicy: Never

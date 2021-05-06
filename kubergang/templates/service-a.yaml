@@ -13,6 +13,6 @@ spec:
   selector:
     app: service-a
   type: LoadBalancer
-  loadBalancerIP: {{ .Values.service-a-ip }}
+  loadBalancerIP: {{ .Values.serviceAIp }}
 status:
   loadBalancer: {}

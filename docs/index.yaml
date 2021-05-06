@@ -2,8 +2,8 @@ apiVersion: v1
 entries:
   kubergang:
   - apiVersion: v2
-    created: "2021-05-06T12:02:57.882617+03:00"
-    digest: 20466f645d75aef375dd455edaca19c3ac2e92dd9a48e14ea43b0d7fc3209816
+    created: "2021-05-06T12:07:00.532395+03:00"
+    digest: 53af6ca21acb6033bc833c76735aca307093dc53fa91ff79d39389bbf89b89b5
     home: http://the.kubergang.com
     name: kubergang
     sources:
@@ -15,7 +15,7 @@ entries:
     - https://anatoliistepaniuk.github.io/kube-services/kubergang-1.3.3.tgz
     version: 1.3.3
   - apiVersion: v2
-    created: "2021-05-06T12:02:57.882343+03:00"
+    created: "2021-05-06T12:07:00.532109+03:00"
     digest: c002ae9a7243193cddf1ffaa36f930b62e1a8ea2a996675c05f8bc23975ddeeb
     home: http://the.kubergang.com
     name: kubergang
@@ -28,7 +28,7 @@ entries:
     - https://anatoliistepaniuk.github.io/kube-services/kubergang-1.3.2.tgz
     version: 1.3.2
   - apiVersion: v2
-    created: "2021-05-06T12:02:57.881456+03:00"
+    created: "2021-05-06T12:07:00.531807+03:00"
     digest: d960a0fdb7d3291763361f87d6d5edf42bd6155b310ae531389da960db3a3dc4
     home: http://the.kubergang.com
     name: kubergang
@@ -41,7 +41,7 @@ entries:
     - https://anatoliistepaniuk.github.io/kube-services/kubergang-1.3.1.tgz
     version: 1.3.1
   - apiVersion: v2
-    created: "2021-05-06T12:02:57.880538+03:00"
+    created: "2021-05-06T12:07:00.53098+03:00"
     digest: 3eb3355716731d3fa8109d8249d796c7dbfd65ba9d612f02b71c6e8a7a5de435
     home: http://the.kubergang.com
     name: kubergang
@@ -53,4 +53,4 @@ entries:
     urls:
     - https://anatoliistepaniuk.github.io/kube-services/kubergang-1.3.0.tgz
     version: 1.3.0
-generated: "2021-05-06T12:02:57.879468+03:00"
+generated: "2021-05-06T12:07:00.530557+03:00"

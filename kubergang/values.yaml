@@ -1,2 +1,2 @@
-serviceAIp: 34.116.197.57 # service-a.kubergang.com
-frontServiceIp: 34.116.169.172 # the.kubergang.com
+serviceAIp: SERVICE_A_IP # service-a.kubergang.com
+frontServiceIp: FRONT_SERVICE_IP # the.kubergang.com

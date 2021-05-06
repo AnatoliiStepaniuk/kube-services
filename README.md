@@ -13,12 +13,13 @@ gcloud compute addresses create service-a-ip
 gcloud compute addresses create front-service-ip
 ```
 
-And specify them in values.yaml:
+And specify them in my-values.yaml:
 ```
 export SERVICE_A_IP=$(gcloud compute addresses describe service-a-ip | grep address: | sed 's/address: //g')
 export FRONT_SERVICE_IP=$(gcloud compute addresses describe front-service-ip | grep address: | sed 's/address: //g')
-sed -i .bak 's/SERVICE_A_IP/'$SERVICE_A_IP'/g' kubergang/values.yaml
-sed -i .bak 's/FRONT_SERVICE_IP/'$FRONT_SERVICE_IP'/g' kubergang/values.yaml
+cp kubergang/values.yaml kubergang/my-values.yaml
+sed -i .bak 's/SERVICE_A_IP/'$SERVICE_A_IP'/g' kubergang/my-values.yaml
+sed -i .bak 's/FRONT_SERVICE_IP/'$FRONT_SERVICE_IP'/g' kubergang/my-values.yaml
 ```
 
 Update IPs in DNS records for service-a.kubergang.com and the.kubergang.com
@@ -31,7 +32,7 @@ Update IPs in DNS records for service-a.kubergang.com and the.kubergang.com
 
 `helm search repo kubergang --versions`
 
-`helm install kubergang kubergang/kubergang --version 1.3.0`
+`helm install kubergang kubergang/kubergang --values=my-values.yaml --version 1.3.4`
 
 ## Creating Chart Version
 
@@ -42,4 +43,4 @@ Push changes to Github.
 
 Now you can upgrade your release to new version:
 `helm repo update`
-`helm upgrade kubergang kubergang/kubergang --version 1.3.2`
+`helm upgrade kubergang kubergang/kubergang --version 1.3.5`

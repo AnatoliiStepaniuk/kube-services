@@ -9,7 +9,7 @@ spec:
     spec:
       containers:
         - name: tests
-          image: kubergang-tests
+          image: anatoliistepaniuk/kubergang-tests:1.0.0
           env:
             - name: SERVICE_A_HOST
               value: http://{{ .Values.serviceAIp }}

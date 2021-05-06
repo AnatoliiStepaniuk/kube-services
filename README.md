@@ -13,7 +13,7 @@ gcloud compute addresses create service-a-ip
 gcloud compute addresses create front-service-ip
 ```
 
-And specify them in my-values.yaml:
+And specify them in my-values.yaml (if you use Linux, avoid `.bak` in `sed` commands):
 ```
 export SERVICE_A_IP=$(gcloud compute addresses describe service-a-ip | grep address: | sed 's/address: //g')
 export FRONT_SERVICE_IP=$(gcloud compute addresses describe front-service-ip | grep address: | sed 's/address: //g')

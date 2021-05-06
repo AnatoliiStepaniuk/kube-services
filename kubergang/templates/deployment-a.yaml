@@ -31,8 +31,4 @@ spec:
           periodSeconds: 5
         env:
           - name: REPLY
-            valueFrom:
-              configMapKeyRef:
-                name: kubergang-config
-                key: SERVICE_A_REPLY
-
+            value: {{ .Values.serviceAReply }}

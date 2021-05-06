@@ -1,2 +1,4 @@
 serviceAIp: SERVICE_A_IP # service-a.kubergang.com
 frontServiceIp: FRONT_SERVICE_IP # the.kubergang.com
+serviceAReply: "How are you doing, honey?"
+serviceBReply: "Doing great, sweetheart ❤️"

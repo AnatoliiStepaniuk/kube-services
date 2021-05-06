@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: kubergang-config
-  namespace: kubergang
-data:
-  SERVICE_A_REPLY: "How are you doing, honey?"
-  SERVICE_B_REPLY: "Doing great, sweetheart ❤️"

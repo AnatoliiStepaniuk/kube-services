@@ -21,6 +21,8 @@ sed -i .bak 's/SERVICE_A_IP/'$SERVICE_A_IP'/g' kubergang/values.yaml
 sed -i .bak 's/FRONT_SERVICE_IP/'$FRONT_SERVICE_IP'/g' kubergang/values.yaml
 ```
 
+Update IPs in DNS records for service-a.kubergang.com and the.kubergang.com
+
 #Helm commands:
 
 `helm repo add kubergang https://anatoliistepaniuk.github.io/kube-services`

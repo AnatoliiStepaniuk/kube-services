@@ -1,2 +1,2 @@
-service-a-ip: SERVICE_A_IP # service-a.kubergang.com
-front-service-ip: FRONT_SERVICE_IP # the.kubergang.com
+service-a-ip: 34.116.197.57 # service-a.kubergang.com
+front-service-ip: 34.116.169.172 # the.kubergang.com

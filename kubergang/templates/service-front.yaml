@@ -13,6 +13,6 @@ spec:
   selector:
     app: front-app
   type: LoadBalancer
-  loadBalancerIP: {{.Values.front-service-ip}}
+  loadBalancerIP: {{ .Values.front-service-ip }}
 status:
   loadBalancer: {}

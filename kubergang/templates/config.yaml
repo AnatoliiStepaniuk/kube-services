@@ -4,5 +4,5 @@ metadata:
   name: kubergang-config
   namespace: kubergang
 data:
-  SERVICE_A_REPLY: "What's up, Cuz?"
-  SERVICE_B_REPLY: "What's up, Blood?"
+  SERVICE_A_REPLY: "How are you doing, honey?"
+  SERVICE_B_REPLY: "Doing great, sweetheart ❤️"

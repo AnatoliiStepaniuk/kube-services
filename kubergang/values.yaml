@@ -1,0 +1,2 @@
+service-a-ip: SERVICE_A_IP # service-a.kubergang.com
+front-service-ip: FRONT_SERVICE_IP # the.kubergang.com

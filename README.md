@@ -32,7 +32,7 @@ Update IPs in DNS records for service-a.kubergang.com and the.kubergang.com
 
 `helm search repo kubergang --versions`
 
-`helm install kubergang kubergang/kubergang --values=my-values.yaml --version 1.3.4`
+`helm upgrade kubergang kubergang/kubergang --install --create-namespace --values=kubergang/my-values.yaml --version=1.3.6`
 
 ## Creating Chart Version
 
@@ -43,4 +43,4 @@ Push changes to Github.
 
 Now you can upgrade your release to new version:
 `helm repo update`
-`helm upgrade kubergang kubergang/kubergang --values=my-values.yaml --version 1.3.5`
+`helm upgrade kubergang kubergang/kubergang --values=my-values.yaml --version 1.3.7`

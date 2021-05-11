@@ -1,6 +1,6 @@
 apiVersion: v2
 name: kubergang
-version: 1.3.7
+version: 2.0.0
 home: http://the.kubergang.com
 sources:
   - https://github.com/AnatoliiStepaniuk/kube-services
